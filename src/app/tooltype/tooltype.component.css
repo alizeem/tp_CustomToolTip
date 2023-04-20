@@ -1,0 +1,33 @@
+/* Styles pour l'infobulle */
+.custom-tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* Styles pour l'infobulle positionnée en haut */
+  .top .non-tooltip {
+    display: none; /* Masquer le contenu non infobulle */
+    position: absolute;
+    top: -20px; /* Distance depuis le haut */
+    left: 50%; /* Positionnement centré */
+    transform: translateX(-50%); /* Centrer horizontalement */
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .bottom .non-tooltip {
+    /* Styles pour l'infobulle positionnée en bas */
+  }
+  
+  .left .non-tooltip {
+    /* Styles pour l'infobulle positionnée à gauche */
+  }
+  
+  .right .non-tooltip {
+    /* Styles pour l'infobulle positionnée à droite */
+  }
+  
